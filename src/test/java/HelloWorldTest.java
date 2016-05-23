@@ -5,7 +5,7 @@ public class HelloWorldTest {
   @Test
   public void testNoArgs() {
     HelloWorld hw = new HelloWorld();
-    assertEquals("Hello world!", hw.getMessage());
+    assertEquals("Hello world?", hw.getMessage());
   }
 
   @Test
